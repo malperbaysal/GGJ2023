@@ -26,7 +26,7 @@ public class Animations : MonoBehaviour
         
         //anim.Play("Air Flip",0,0);
         
-        anim.CrossFade("Air Flip",0.1f,0,0.37f);
+        anim.CrossFade("Air Flip",0.1f,0,0.07f);
     }
 
     public void PunchAnim()
