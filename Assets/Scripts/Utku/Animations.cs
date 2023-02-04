@@ -5,6 +5,7 @@ using UnityEngine;
 public class Animations : MonoBehaviour
 {
     public Animator anim;
+    public int animSelector = 1;
 
     public bool isAttackingUpPublic
     {
@@ -30,16 +31,39 @@ public class Animations : MonoBehaviour
     {
         isAttackUp = true;
         isAttackDown = false;
-        anim.SetLayerWeight(animLayerIndex, 0);
+       //anim.SetLayerWeight(animLayerIndex, 0);
         anim.CrossFade("Air Flip",0.1f,0,0.07f);
+
+        anim.SetLayerWeight(animLayerIndex, 1);
+
+        animSelector += 1;
+        if (animSelector % 2 == 0)
+        {
+            anim.CrossFade("Sword Swing", 0.1f, 1, 0.37f);
+        }
+        else
+        {
+            anim.CrossFade("Sword Swing left", 0.1f, 1, 0.37f);
+        }
     }
 
     public void PunchAnim()
     {
+
         isAttackUp = false;
         isAttackDown = true;
-        anim.SetLayerWeight(animLayerIndex, 1);       
-        anim.CrossFade("Sword Swing",0.1f,1,0.37f);
+        anim.SetLayerWeight(animLayerIndex, 1);
+
+        animSelector += 1;
+        if (animSelector % 2 == 0)
+        {
+            anim.CrossFade("Sword Swing", 0.1f, 1, 0.37f);
+        }
+        else
+        {
+            anim.CrossFade("Sword Swing left", 0.1f, 1, 0.37f);
+        }
+
     }
 
     public void ResetWeight()
