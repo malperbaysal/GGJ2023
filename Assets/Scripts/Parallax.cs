@@ -15,6 +15,10 @@ public class Parallax : MonoBehaviour
     public Transform parallax2;
     public Transform parallax3;
     public Transform parallax4;
+    public Tween parallaxTween1;
+    public Tween parallaxTween2;
+    public Tween parallaxTween3;
+    public Tween parallaxTween4;
     private void Awake()
     {
         if (instance != null) {
@@ -50,9 +54,9 @@ public class Parallax : MonoBehaviour
             return;
         
         //tween=transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
-        parallax1.DOMoveX(-1000, 1).SetSpeedBased().SetEase(Ease.Linear);
-        parallax2.DOMoveX(-1000, 5).SetSpeedBased().SetEase(Ease.Linear);
-        parallax3.DOMoveX(-1000, 6).SetSpeedBased().SetEase(Ease.Linear);
-        parallax4.DOMoveX(-1000, 8).SetSpeedBased().SetEase(Ease.Linear);
+        parallaxTween1=parallax1.DOMoveX(-1000, 1).SetSpeedBased().SetEase(Ease.Linear);
+        parallaxTween2=parallax2.DOMoveX(-1000, 5).SetSpeedBased().SetEase(Ease.Linear);
+        parallaxTween3=parallax3.DOMoveX(-1000, 6).SetSpeedBased().SetEase(Ease.Linear);
+        parallaxTween4=parallax4.DOMoveX(-1000, 8).SetSpeedBased().SetEase(Ease.Linear);
     }
 }
