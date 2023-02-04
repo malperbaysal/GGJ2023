@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -12,10 +13,14 @@ public class AgeManager : MonoBehaviour
     private Tween _tween;
 
     private Vector3 firstPoint;
+
+    public bool testing;
+
+    public float delay;
     // Start is called before the first frame update
     void Start()
     {
-        
+        firstPoint = transform.position;
     }
 
     // Update is called once per frame
@@ -28,16 +33,44 @@ public class AgeManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            //_tween.PlayBackwards();
-            _tween=transform.DOMoveX(firstPoint.x, 100).SetSpeedBased().SetEase(Ease.Linear).OnComplete(StartMoving);
+            _tween.Kill();
+            _tween=transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
         }
+    }
+
+    IEnumerator DelayBeforeRestart()
+    {
+        yield return new WaitForSeconds(0.75f);
+        StartMoving();
     }
 
     void StartMoving()
     {
-        firstPoint = transform.position;
+        if (_tween.IsActive())
+            return;
+        
         _tween=transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
         video.Play();
+        music.Play();
+    }
+
+    private void OnValidate()
+    {
+        if (testing)
+        {
+            video.Play();
+            StartCoroutine(DelayBeforeMusic());
+        }
+        else
+        {
+            video.Stop();
+            music.Stop();
+        }
+        
+    }
+    IEnumerator DelayBeforeMusic()
+    {
+        yield return new WaitForSeconds(delay);
         music.Play();
     }
 }
