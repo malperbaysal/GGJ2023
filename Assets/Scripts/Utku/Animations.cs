@@ -23,7 +23,10 @@ public class Animations : MonoBehaviour
         isAttack = false;
         anim.SetLayerWeight(animLayerIndex, 0);
         //anim.SetTrigger("TriggerUP");
-        anim.Play("Air Flip",0,0);
+        
+        //anim.Play("Air Flip",0,0);
+        
+        anim.CrossFade("Air Flip",0.1f,0,0.37f);
     }
 
     public void PunchAnim()
@@ -32,7 +35,10 @@ public class Animations : MonoBehaviour
         anim.SetLayerWeight(animLayerIndex, 1);
         //anim.SetTrigger("TriggerPunch");
         //anim.Play("Punch",0,0);
-        anim.Play("Sword Swing",1,0);
+        
+        //anim.Play("Sword Swing",1,0.37f);
+        
+        anim.CrossFade("Sword Swing",0.1f,1,0.37f);
     }
 
     public void ResetWeight()
