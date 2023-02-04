@@ -127,7 +127,14 @@ public class AgeManager : MonoBehaviour
         _groundTween = _ground.transform.DOMoveX(firstPoint.x - 1, 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear);
         for (int i = 0; i < _paralax.Count; i++)
         {
+            Parallax Parallax = _backGround.GetComponent<Parallax>();
+            
             _paralax[i].transform.DOMove(_paralaxPlaces[i], 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear);
+            
+            Parallax.parallaxTween1.Kill();
+            Parallax.parallaxTween2.Kill();
+            Parallax.parallaxTween3.Kill();
+            Parallax.parallaxTween4.Kill();
         }
     }
 
