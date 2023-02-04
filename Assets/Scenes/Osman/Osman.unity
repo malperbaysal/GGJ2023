@@ -7556,6 +7556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_Knight_01_Orange
       objectReference: {fileID: 0}
+    - target: {fileID: 127338, guid: 360c73b9bf9a34d4c84bc0581d0499eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 499368, guid: 360c73b9bf9a34d4c84bc0581d0499eb, type: 3}
       propertyPath: m_RootOrder
       value: 1
