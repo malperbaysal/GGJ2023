@@ -51,8 +51,8 @@ public class Parallax : MonoBehaviour
         
         //tween=transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
         parallax1.DOMoveX(-1000, 1).SetSpeedBased().SetEase(Ease.Linear);
-        parallax2.DOMoveX(-1000, 11).SetSpeedBased().SetEase(Ease.Linear);
-        parallax3.DOMoveX(-1000, 12).SetSpeedBased().SetEase(Ease.Linear);
-        parallax4.DOMoveX(-1000, 13).SetSpeedBased().SetEase(Ease.Linear);
+        parallax2.DOMoveX(-1000, 5).SetSpeedBased().SetEase(Ease.Linear);
+        parallax3.DOMoveX(-1000, 6).SetSpeedBased().SetEase(Ease.Linear);
+        parallax4.DOMoveX(-1000, 8).SetSpeedBased().SetEase(Ease.Linear);
     }
 }
