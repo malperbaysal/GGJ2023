@@ -83,11 +83,10 @@ public class AgeManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.9f);
         music.Play();
-        print("xd");
     }
 
     public void NextAge()
     {
-        
+        firstPoint = transform.position;
     }
 }
