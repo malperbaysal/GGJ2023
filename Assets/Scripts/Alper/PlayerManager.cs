@@ -17,7 +17,7 @@ public class PlayerManager : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F)||Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.F)||Input.GetKeyDown(KeyCode.G)||Input.GetButtonDown(KeyCode.G))
         {
             FirstAction();
             animationsScript.JumpAnim();
