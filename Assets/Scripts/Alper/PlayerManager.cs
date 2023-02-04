@@ -21,22 +21,22 @@ public class PlayerManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F)||Input.GetKeyDown(KeyCode.G)||Input.GetMouseButtonDown(0))
         {
             FirstAction();
-            animationsScript.JumpAnim();
         }
         if (Input.GetKeyDown(KeyCode.J)||Input.GetKeyDown(KeyCode.K)||Input.GetMouseButtonDown(1))
         {
             SecondAction();
-            animationsScript.PunchAnim();
         }
+        
     }
 
     void FirstAction()
     {
         //transform.DOLocalJump(new Vector3(transform.position.x,-3,transform.position.z), 2, 1, 0.40f);
+        animationsScript.JumpAnim();
     }
     void SecondAction()
     {
-        
+        animationsScript.PunchAnim();
     }
 
     private void OnCollisionEnter(Collision collision)

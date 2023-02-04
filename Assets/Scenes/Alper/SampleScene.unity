@@ -2193,9 +2193,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 140027258}
-  isAttack: 0
   animWeight: 0
-  animLayerIndex: 2
+  animLayerIndex: 1
 --- !u!1001 &142135013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11452,7 +11451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831737438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 3.61, z: 0}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 110133740}
@@ -24360,6 +24359,7 @@ MonoBehaviour:
   music: {fileID: 1120763965}
   testing: 0
   delay: 0.9
+  _ground: {fileID: 0}
 --- !u!1 &1860868123
 GameObject:
   m_ObjectHideFlags: 0
