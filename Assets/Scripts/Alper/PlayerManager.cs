@@ -7,6 +7,8 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private AgeManager _ageManager;
+    public Animations animationsScript;
+
     void Start()
     {
       
@@ -18,10 +20,12 @@ public class PlayerManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F)||Input.GetKeyDown(KeyCode.G))
         {
             FirstAction();
+            animationsScript.JumpAnim();
         }
         if (Input.GetKeyDown(KeyCode.J)||Input.GetKeyDown(KeyCode.K))
         {
             SecondAction();
+            animationsScript.PunchAnim();
         }
     }
 
