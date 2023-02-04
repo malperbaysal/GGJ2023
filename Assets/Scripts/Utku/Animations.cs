@@ -6,7 +6,13 @@ public class Animations : MonoBehaviour
 {
     public Animator anim;
     public int animSelector = 1;
-
+    public bool isAttackingPublic
+    {
+        get
+        {
+            return isAttack;
+        }
+    }
     public bool isAttackingUpPublic
     {
         get
@@ -22,6 +28,7 @@ public class Animations : MonoBehaviour
         }
     }
 
+    private bool isAttack;
     private bool isAttackUp;
     private bool isAttackDown;
     public float animWeight = 1;
@@ -29,6 +36,7 @@ public class Animations : MonoBehaviour
 
     public void JumpAnim()
     {
+        isAttack = true;
         isAttackUp = true;
         isAttackDown = false;
        //anim.SetLayerWeight(animLayerIndex, 0);
@@ -49,7 +57,7 @@ public class Animations : MonoBehaviour
 
     public void PunchAnim()
     {
-
+        isAttack = true;
         isAttackUp = false;
         isAttackDown = true;
         anim.SetLayerWeight(animLayerIndex, 1);
@@ -68,6 +76,7 @@ public class Animations : MonoBehaviour
 
     public void ResetWeight()
     {
+        isAttack = false;
         isAttackUp = false;
         isAttackDown = false;
         anim.SetLayerWeight(animLayerIndex, animWeight);
