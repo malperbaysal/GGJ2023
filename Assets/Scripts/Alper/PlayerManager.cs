@@ -38,16 +38,12 @@ public class PlayerManager : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            GameManager.instance.ReloadActiveScene();
+            print("Obstacle");
         }
-
-        switch (collision.gameObject.tag)
+        if (collision.gameObject.CompareTag("LevelEndingCube"))
         {
-            case "Obstacle":
-                break;
-            case "LevelEndCube":
-                _ageManager.NextAge();
-                break;
+            _ageManager.NextAge();
+            print("UwU");
         }
     }
 }
