@@ -58,7 +58,8 @@ public class AgeManager : MonoBehaviour
     {
         if (testing)
         {
-            video.Play();
+            //video.Play(); - 0.9
+            music.Play();
             StartCoroutine(DelayBeforeMusic());
         }
         else
@@ -71,6 +72,12 @@ public class AgeManager : MonoBehaviour
     IEnumerator DelayBeforeMusic()
     {
         yield return new WaitForSeconds(delay);
-        music.Play();
+        //music.Play(); - 0.90
+        video.Play();
+    }
+
+    public void NextAge()
+    {
+        
     }
 }
