@@ -5,7 +5,6 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ObsticlePlacer : MonoBehaviour
 {
-    [SerializeField] List<GameObject> _spikes;
     [SerializeField] bool _place;
     [SerializeField] float _distanceBetween;
     
