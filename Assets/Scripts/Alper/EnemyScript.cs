@@ -13,9 +13,8 @@ public class EnemyScript : MonoBehaviour
     
     void Start()
     {
-        firstPos = transform.GetChild(0).position;
-        
-        firstRotation = transform.GetChild(0).rotation;
+        firstPos = transform.GetChild(0).localPosition;
+        firstRotation = transform.GetChild(0).localRotation;
         _boxCollider=transform.GetChild(0).GetComponent<BoxCollider>();
         
     }
@@ -50,8 +49,8 @@ public class EnemyScript : MonoBehaviour
         if(!_isDead)
             return;
         _boxCollider.enabled = true;
-        transform.GetChild(0).position = firstPos;
-        transform.GetChild(0).rotation = firstRotation;
+        transform.GetChild(0).localPosition = firstPos;
+        transform.GetChild(0).localRotation = firstRotation;
         _activeRB.constraints = RigidbodyConstraints.FreezeAll;
         _activeRB.isKinematic = true;
         _isDead = false;
