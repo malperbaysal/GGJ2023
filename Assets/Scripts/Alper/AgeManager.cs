@@ -50,10 +50,19 @@ public class AgeManager : MonoBehaviour
             return;
         
         _tween=transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
+        MusicPlay();
+        /*
         video.Play();
         music.Play();
+        */
     }
 
+    void MusicPlay()
+    {
+        //video.Play();
+        StartCoroutine(DelayBeforeMusic());
+    }
+    /*
     private void OnValidate()
     {
         if (testing)
@@ -69,15 +78,15 @@ public class AgeManager : MonoBehaviour
         }
         
     }
+    */
     IEnumerator DelayBeforeMusic()
     {
-        yield return new WaitForSeconds(delay);
-        //music.Play(); - 0.90
-        video.Play();
+        yield return new WaitForSeconds(0.9f);
+        music.Play();
     }
 
     public void NextAge()
     {
-        
+        firstPoint = transform.position;
     }
 }

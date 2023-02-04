@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    [SerializeField] private AgeManager _ageManager;
     void Start()
     {
       
@@ -38,6 +39,15 @@ public class PlayerManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             GameManager.instance.ReloadActiveScene();
+        }
+
+        switch (collision.gameObject.tag)
+        {
+            case "Obstacle":
+                break;
+            case "LevelEndCube":
+                _ageManager.NextAge();
+                break;
         }
     }
 }
