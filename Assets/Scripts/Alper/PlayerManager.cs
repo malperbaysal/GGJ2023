@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -17,12 +18,12 @@ public class PlayerManager : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F)||Input.GetKeyDown(KeyCode.G)||Input.GetButtonDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.F)||Input.GetKeyDown(KeyCode.G)||Input.GetMouseButtonDown(0))
         {
             FirstAction();
             animationsScript.JumpAnim();
         }
-        if (Input.GetKeyDown(KeyCode.J)||Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.J)||Input.GetKeyDown(KeyCode.K)||Input.GetMouseButtonDown(1))
         {
             SecondAction();
             animationsScript.PunchAnim();
