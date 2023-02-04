@@ -6,7 +6,8 @@ using UnityEngine.Video;
 
 public class AgeManager : MonoBehaviour
 {
-    public VideoPlayer video;
+    [SerializeField]private VideoPlayer video;
+    [SerializeField]private AudioSource music;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +27,6 @@ public class AgeManager : MonoBehaviour
     {
         transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
         video.Play();
+        music.Play();
     }
 }

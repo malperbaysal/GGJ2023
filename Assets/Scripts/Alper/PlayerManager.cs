@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -7,6 +8,7 @@ public class PlayerManager : MonoBehaviour
 {
     void Start()
     {
+      
         
     }
     
@@ -24,10 +26,18 @@ public class PlayerManager : MonoBehaviour
 
     void FirstAction()
     {
-        transform.DOLocalJump(new Vector3(transform.position.x,-3,transform.position.z), 2, 1, 0.5f);
+        transform.DOLocalJump(new Vector3(transform.position.x,-3,transform.position.z), 2, 1, 0.40f);
     }
     void SecondAction()
     {
         
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            GameManager.instance.ReloadActiveScene();
+        }
     }
 }
