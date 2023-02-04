@@ -6,7 +6,12 @@ using UnityEngine.Video;
 
 public class AgeManager : MonoBehaviour
 {
-    public VideoPlayer video;
+    [SerializeField]private VideoPlayer video;
+    [SerializeField]private AudioSource music;
+
+    private Tween _tween;
+
+    private Vector3 firstPoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +25,19 @@ public class AgeManager : MonoBehaviour
         {
             StartMoving();
         }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            //_tween.PlayBackwards();
+            _tween=transform.DOMoveX(firstPoint.x, 100).SetSpeedBased().SetEase(Ease.Linear).OnComplete(StartMoving);
+        }
     }
 
     void StartMoving()
     {
-        transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
+        firstPoint = transform.position;
+        _tween=transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
         video.Play();
+        music.Play();
     }
 }
