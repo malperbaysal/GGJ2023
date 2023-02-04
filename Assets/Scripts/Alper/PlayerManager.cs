@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -23,7 +24,7 @@ public class PlayerManager : MonoBehaviour
 
     void FirstAction()
     {
-        
+        transform.DOJump(transform.position, 2, 1, 0.5f);
     }
     void SecondAction()
     {
