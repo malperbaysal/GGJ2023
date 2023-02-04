@@ -11,12 +11,15 @@ public class AgeManager : MonoBehaviour
     [SerializeField]private AudioSource music;
 
     private Tween _tween;
+    private Tween _groundTween;
 
     private Vector3 firstPoint;
 
     public bool testing;
 
     public float delay;
+
+    [SerializeField] private GameObject _ground;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +37,9 @@ public class AgeManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             _tween.Kill();
+            _groundTween.Kill();
             _tween=transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
+            _groundTween=_ground.transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
         }
     }
 
@@ -50,6 +55,7 @@ public class AgeManager : MonoBehaviour
             return;
         
         _tween=transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
+        _groundTween=_ground.transform.DOMoveX(-1000, 6.5f).SetSpeedBased().SetEase(Ease.Linear);
         Parallax.instance.MoveX();
         MusicPlay();
         /*
