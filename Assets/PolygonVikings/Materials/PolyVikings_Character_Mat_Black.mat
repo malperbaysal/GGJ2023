@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: PolyVikings_Character_Mat_Black
   m_Shader: {fileID: 4800000, guid: 71d6765ad72e11541bc1448c891bbcf9, type: 3}
-  m_ShaderKeywords: PROPIXELIZER_DITHERING_ON RECEIVE_SHADOWS_ON USE_OBJECT_POSITION_ON
+  m_ShaderKeywords: PROPIXELIZER_DITHERING_ON USE_OBJECT_POSITION_ON
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -111,7 +111,7 @@ Material:
     m_Floats:
     - COLOR_GRADING: 0
     - PROPIXELIZER_DITHERING: 1
-    - RECEIVE_SHADOWS: 1
+    - RECEIVE_SHADOWS: 0
     - USE_OBJECT_POSITION: 1
     - _AlphaClip: 0
     - _AlphaClipThreshold: 0.5
