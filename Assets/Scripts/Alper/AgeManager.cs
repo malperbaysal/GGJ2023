@@ -24,6 +24,9 @@ public class AgeManager : MonoBehaviour
     [SerializeField] private List<GameObject> _paralax;
 
     [SerializeField] private List<Vector3> _paralaxPlaces;
+    
+    
+    [SerializeField] private GameObject currentAge;
 
     // Start is called before the first frame update
     void Start()
@@ -120,6 +123,12 @@ public class AgeManager : MonoBehaviour
 
     public void PlayerDied()
     {
+        var EnemeyReviver = currentAge.GetComponentsInChildren<EnemyScript>();
+        foreach (var enemies in EnemeyReviver)
+        {
+            enemies.Revive();
+        }
+        music.Stop();
         _tween.Kill();
         _groundTween.Kill();
         _tween = transform.DOMoveX(firstPoint.x - 1, 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear)
@@ -136,6 +145,7 @@ public class AgeManager : MonoBehaviour
             Parallax.parallaxTween3.Kill();
             Parallax.parallaxTween4.Kill();
         }
+        
     }
 
     void ParalaxPlacesSet()

@@ -41,6 +41,16 @@ public class PlayerManager : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.CompareTag("EnemyHit"))
+        {
+            if(animationsScript.isAttackingPublic)
+                collision.gameObject.GetComponentInParent<EnemyScript>().Die();
+        }
+        if (collision.gameObject.CompareTag("EnemyMurder"))
+        {
+            _ageManager.PlayerDied();
+        }
+        /*
         if (collision.gameObject.CompareTag("Enemy"))
         {
             if (collision.transform.parent.parent.name == "FlyingEnemies")
@@ -67,7 +77,7 @@ public class PlayerManager : MonoBehaviour
                 }
             }
         }
-
+        */
         if (collision.gameObject.CompareTag("LevelEndingCube"))
         {
             _ageManager.NextAge();
