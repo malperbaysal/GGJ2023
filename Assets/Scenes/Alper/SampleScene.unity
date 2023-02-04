@@ -24359,7 +24359,7 @@ MonoBehaviour:
   music: {fileID: 1120763965}
   testing: 0
   delay: 0.9
-  _ground: {fileID: 0}
+  _ground: {fileID: 1190198757}
 --- !u!1 &1860868123
 GameObject:
   m_ObjectHideFlags: 0
