@@ -7,8 +7,8 @@ using UnityEngine.Video;
 
 public class AgeManager : MonoBehaviour
 {
-    [SerializeField]private VideoPlayer video;
-    [SerializeField]private AudioSource music;
+    [SerializeField] private VideoPlayer video;
+    [SerializeField] private AudioSource music;
 
     private Tween _tween;
     private Tween _groundTween;
@@ -20,10 +20,16 @@ public class AgeManager : MonoBehaviour
     public float delay;
 
     [SerializeField] private GameObject _ground;
+    [SerializeField] private GameObject _backGround;
+    [SerializeField] private List<GameObject> _paralax;
+
+    [SerializeField] private List<Vector3> _paralaxPlaces;
+
     // Start is called before the first frame update
     void Start()
     {
         firstPoint = transform.position;
+        ParalaxPlacesSet();
     }
 
     // Update is called once per frame
@@ -50,9 +56,9 @@ public class AgeManager : MonoBehaviour
     {
         if (_tween.IsActive())
             return;
-        
-        _tween=transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
-        _groundTween=_ground.transform.DOMoveX(-1000, 6.5f).SetSpeedBased().SetEase(Ease.Linear);
+
+        _tween = transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
+        _groundTween = _ground.transform.DOMoveX(-1000, 6.5f).SetSpeedBased().SetEase(Ease.Linear);
         Parallax.instance.MoveX();
         MusicPlay();
         /*
@@ -66,23 +72,40 @@ public class AgeManager : MonoBehaviour
         //video.Play();
         StartCoroutine(DelayBeforeMusic());
     }
-    /*
+
     private void OnValidate()
     {
-        if (testing)
+        /*
+            if (testing)
+            {
+                //video.Play(); - 0.9
+                music.Play();
+                StartCoroutine(DelayBeforeMusic());
+            }
+            else
+            {
+                video.Stop();
+                music.Stop();
+            }
+            */
+        _paralax.Clear();
+        foreach (Transform child in _backGround.transform)
         {
-            //video.Play(); - 0.9
-            music.Play();
-            StartCoroutine(DelayBeforeMusic());
+            if (child.transform.childCount > 0)
+            {
+                _paralax.Add(child.gameObject);
+                foreach (Transform grandChild in child.transform)
+                {
+                    _paralax.Add(grandChild.gameObject);
+                }
+            }
+            else
+            {
+                _paralax.Add(child.gameObject);
+            }
         }
-        else
-        {
-            video.Stop();
-            music.Stop();
-        }
-        
     }
-    */
+
     IEnumerator DelayBeforeMusic()
     {
         yield return new WaitForSeconds(0.9f);
@@ -92,13 +115,27 @@ public class AgeManager : MonoBehaviour
     public void NextAge()
     {
         firstPoint = transform.position;
+        ParalaxPlacesSet();
     }
 
     public void PlayerDied()
     {
         _tween.Kill();
         _groundTween.Kill();
-        _tween=transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
-        _groundTween=_ground.transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
+        _tween = transform.DOMoveX(firstPoint.x - 1, 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear)
+            .OnComplete((() => StartCoroutine(DelayBeforeRestart())));
+        _groundTween = _ground.transform.DOMoveX(firstPoint.x - 1, 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear);
+        for (int i = 0; i < _paralax.Count; i++)
+        {
+            _paralax[i].transform.DOMove(_paralaxPlaces[i], 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear);
+        }
+    }
+
+    void ParalaxPlacesSet()
+    {
+        foreach (var pos in _paralax)
+        {
+            _paralaxPlaces.Add(pos.transform.position);
+        }
     }
 }
