@@ -31,7 +31,7 @@ public class PlayerManager : MonoBehaviour
 
     void FirstAction()
     {
-        transform.DOLocalJump(new Vector3(transform.position.x,-3,transform.position.z), 2, 1, 0.40f);
+        //transform.DOLocalJump(new Vector3(transform.position.x,-3,transform.position.z), 2, 1, 0.40f);
     }
     void SecondAction()
     {
