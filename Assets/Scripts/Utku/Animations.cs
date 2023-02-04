@@ -8,14 +8,17 @@ public class Animations : MonoBehaviour
 
     public void JumpAnim()
     {
-        anim.ResetTrigger("TriggerPunch");
-        anim.SetTrigger("TriggerUp");
+        //anim.ResetTrigger("TriggerUP");
+        anim.SetTrigger("TriggerUP");
+        print("jump");
     }
 
     public void PunchAnim()
     {
-        anim.ResetTrigger("TriggerUp");
+
+        //anim.ResetTrigger("TriggerPunch");
         anim.SetTrigger("TriggerPunch");
+        print("punch");
     }
 
 }
