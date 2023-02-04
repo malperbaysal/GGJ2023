@@ -13347,8 +13347,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 421040170}
   music: {fileID: 1120763965}
-  testing: 0
-  delay: 0.9
 --- !u!1001 &1863345364
 PrefabInstance:
   m_ObjectHideFlags: 0
