@@ -4558,6 +4558,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 382444893}
     m_Modifications:
+    - target: {fileID: 132262, guid: 1a114115d90d1424e81192fb8e9d1707, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 140428, guid: 1a114115d90d1424e81192fb8e9d1707, type: 3}
       propertyPath: m_Name
       value: Character_Warrior_02_Black
@@ -7316,6 +7320,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
   m_PrefabInstance: {fileID: 986748277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1000376884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 467418, guid: 1a114115d90d1424e81192fb8e9d1707, type: 3}
+  m_PrefabInstance: {fileID: 588865534}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1014595263
 PrefabInstance:
@@ -13040,6 +13049,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
   m_PrefabInstance: {fileID: 1771092325}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1790662926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1000376884}
+    m_Modifications:
+    - target: {fileID: 132956, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Wood_Spike_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 84.98678
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 84.98681
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 84.98678
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -43.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 457018, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56bb9734285aeed4489a988497dbc74e, type: 3}
 --- !u!1001 &1813509664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13544,6 +13622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1889575776}
+  isAttack: 0
+  animWeight: 1
 --- !u!1001 &1905485068
 PrefabInstance:
   m_ObjectHideFlags: 0
