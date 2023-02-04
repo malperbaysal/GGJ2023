@@ -129,7 +129,7 @@ public class AgeManager : MonoBehaviour
         {
             Parallax Parallax = _backGround.GetComponent<Parallax>();
             
-            _paralax[i].transform.DOMove(_paralaxPlaces[i], 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete(Parallax.MoveX);
+            _paralax[i].transform.DOMove(_paralaxPlaces[i], 0.5f) /*.SetSpeedBased()*/.SetEase(Ease.Linear);
             
             Parallax.parallaxTween1.Kill();
             Parallax.parallaxTween2.Kill();
