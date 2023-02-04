@@ -31,6 +31,7 @@ public class EnemyScript : MonoBehaviour
     {
         if(_isDead)
             return;
+        _activeRB.constraints = RigidbodyConstraints.None;
         _activeRB.isKinematic = false;
         _activeRB.AddForce(GetRandomForce(),ForceMode.Impulse);
         _activeRB.AddTorque(GetRandomForce(),ForceMode.Impulse);

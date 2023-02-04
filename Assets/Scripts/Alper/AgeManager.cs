@@ -36,10 +36,7 @@ public class AgeManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            _tween.Kill();
-            _groundTween.Kill();
-            _tween=transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
-            _groundTween=_ground.transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
+            PlayerDied();
         }
     }
 
@@ -95,5 +92,13 @@ public class AgeManager : MonoBehaviour
     public void NextAge()
     {
         firstPoint = transform.position;
+    }
+
+    public void PlayerDied()
+    {
+        _tween.Kill();
+        _groundTween.Kill();
+        _tween=transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
+        _groundTween=_ground.transform.DOMoveX(firstPoint.x-1, 0.5f)/*.SetSpeedBased()*/.SetEase(Ease.Linear).OnComplete((() => StartCoroutine(DelayBeforeRestart())));
     }
 }
