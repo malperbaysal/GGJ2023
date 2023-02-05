@@ -117,7 +117,6 @@ public class AgeManager : MonoBehaviour
 
     public void NextAge(Transform cubeTransform)
     {
-        print("UwU");
         firstPoint = new Vector3(cubeTransform.position.x,firstPoint.y,firstPoint.z);
         ChangeCharacter();
         ParalaxPlacesSet();
@@ -125,12 +124,15 @@ public class AgeManager : MonoBehaviour
 
     void ChangeCharacter()
     {
-        for (int i = 0; i < transform.childCount; i++)
+        var  playerManager =FindObjectOfType<PlayerManager>();
+        //var playerObj = playerManager.gameObject;
+        for (int i = 0; i < playerManager.transform.childCount; i++)
         {
-            if (transform.GetChild(i).gameObject.activeSelf)
+            if (playerManager.transform.GetChild(i).gameObject.activeSelf)
             {
-                transform.GetChild(i).gameObject.SetActive(false);
-                transform.GetChild(i+1).gameObject.SetActive(true);
+                playerManager.transform.GetChild(i).gameObject.SetActive(false);
+                playerManager.transform.GetChild(i+1).gameObject.SetActive(true);
+                playerManager.animationsScript = playerManager.transform.GetChild(i + 1).GetComponent<Animations>();
                 break;
             }
         }

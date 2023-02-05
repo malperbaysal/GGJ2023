@@ -47,7 +47,6 @@ public class PlayerManager : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("LevelEndingCube"))
         {
-            print("UwU");
             _ageManager.NextAge(collision.transform);
         }
         /*
