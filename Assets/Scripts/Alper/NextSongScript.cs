@@ -19,7 +19,7 @@ public class NextSongScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
             audioSource.pitch = Time.timeScale = 5;
         if (Input.GetKeyUp(KeyCode.P))
-            audioSource.pitch = Time.timeScale = 5;
+            audioSource.pitch = Time.timeScale = 1;
     }
 
     public void NextSong()
