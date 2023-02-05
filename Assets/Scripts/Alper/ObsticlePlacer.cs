@@ -6,7 +6,7 @@ using UnityEngine;
 public class ObsticlePlacer : MonoBehaviour
 {
     [SerializeField] bool _place;
-    [SerializeField] float _distanceBetween;
+    public float _distanceBetween;
     void Start()
     {
         

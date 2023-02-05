@@ -55,12 +55,12 @@ public class ColliderChecker : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.transform.parent.parent.name == "GroundEnemies")
+        if (other.CompareTag("GroundEnemies"))
         {
             listOfCloseNotesDown.Add(other.transform);
         }
 
-        if (other.transform.parent.parent.name == "FlyingEnemies")
+        if (other.CompareTag("FlyingEnemies"))
         {
             listOfCloseNotesUp.Add(other.transform);
         }
