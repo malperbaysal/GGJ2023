@@ -45,9 +45,10 @@ public class PlayerManager : MonoBehaviour
         {
             _ageManager.PlayerDied();
         }
-        if (collision.gameObject.CompareTag("EnemyMurder"))
+        if (collision.gameObject.CompareTag("LevelEndingCube"))
         {
-            
+            print("UwU");
+            _ageManager.NextAge(collision.transform);
         }
         /*
         if (collision.gameObject.CompareTag("Enemy"))
@@ -77,9 +78,6 @@ public class PlayerManager : MonoBehaviour
             }
         }
         */
-        if (collision.gameObject.CompareTag("LevelEndingCube"))
-        {
-            _ageManager.NextAge(collision.transform);
-        }
+        
     }
 }

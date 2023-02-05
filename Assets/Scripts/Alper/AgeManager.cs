@@ -117,6 +117,7 @@ public class AgeManager : MonoBehaviour
 
     public void NextAge(Transform cubeTransform)
     {
+        print("UwU");
         firstPoint = new Vector3(cubeTransform.position.x,firstPoint.y,firstPoint.z);
         ChangeCharacter();
         ParalaxPlacesSet();
@@ -129,6 +130,7 @@ public class AgeManager : MonoBehaviour
             if (transform.GetChild(i).gameObject.activeSelf)
             {
                 transform.GetChild(i).gameObject.SetActive(false);
+                transform.GetChild(i+1).gameObject.SetActive(true);
                 break;
             }
         }
