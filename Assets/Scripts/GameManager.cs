@@ -25,10 +25,6 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
             ReloadActiveScene();
-        if (Input.GetKeyDown(KeyCode.P))
-            Time.timeScale = 5;
-        if (Input.GetKeyUp(KeyCode.P))
-            Time.timeScale = 1;
     }
 
     public void ReloadActiveScene()

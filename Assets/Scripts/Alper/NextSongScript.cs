@@ -14,6 +14,14 @@ public class NextSongScript : MonoBehaviour
         i++;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+            audioSource.pitch = Time.timeScale = 5;
+        if (Input.GetKeyUp(KeyCode.P))
+            audioSource.pitch = Time.timeScale = 5;
+    }
+
     public void NextSong()
     {
         audioSource.clip =songs[i];
