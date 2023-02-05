@@ -111,16 +111,28 @@ public class AgeManager : MonoBehaviour
 
     IEnumerator DelayBeforeMusic()
     {
-        yield return new WaitForSeconds(0.9f);
+        yield return new WaitForSeconds(1.03f);
         music.Play();
     }
 
-    public void NextAge()
+    public void NextAge(Transform cubeTransform)
     {
-        firstPoint = transform.position;
+        firstPoint = new Vector3(cubeTransform.position.x,firstPoint.y,firstPoint.z);
+        ChangeCharacter();
         ParalaxPlacesSet();
     }
 
+    void ChangeCharacter()
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            if (transform.GetChild(i).gameObject.activeSelf)
+            {
+                transform.GetChild(i).gameObject.SetActive(false);
+                break;
+            }
+        }
+    }
     public void PlayerDied()
     {
         var EnemeyReviver = currentAge.GetComponentsInChildren<EnemyScript>();

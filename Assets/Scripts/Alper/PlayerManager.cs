@@ -41,14 +41,13 @@ public class PlayerManager : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("EnemyHit"))
+        if (collision.gameObject.CompareTag("FlyingEnemies")||collision.gameObject.CompareTag("GroundEnemies"))
         {
-            if(animationsScript.isAttackingPublic)
-                collision.gameObject.GetComponentInParent<EnemyScript>().Die();
+            _ageManager.PlayerDied();
         }
         if (collision.gameObject.CompareTag("EnemyMurder"))
         {
-            _ageManager.PlayerDied();
+            
         }
         /*
         if (collision.gameObject.CompareTag("Enemy"))
@@ -80,8 +79,7 @@ public class PlayerManager : MonoBehaviour
         */
         if (collision.gameObject.CompareTag("LevelEndingCube"))
         {
-            _ageManager.NextAge();
-            print("UwU");
+            _ageManager.NextAge(collision.transform);
         }
     }
 }

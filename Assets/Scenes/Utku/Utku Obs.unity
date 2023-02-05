@@ -761,6 +761,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
   m_PrefabInstance: {fileID: 63758081}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &65139049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2034428344}
+    m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_Name
+      value: Diken (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_RootOrder
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
 --- !u!1001 &71526312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2505,6 +2578,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
   m_PrefabInstance: {fileID: 292218248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &297379768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2034428344}
+    m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_Name
+      value: Diken (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_RootOrder
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 131.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
 --- !u!1 &308203973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4712,9 +4854,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 158283714}
     m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_Name
       value: Diken (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_RootOrder
@@ -4759,6 +4909,10 @@ PrefabInstance:
     - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
@@ -5852,6 +6006,75 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2001678622175458796, guid: e65735b853474634fbec134ad814164d, type: 3}
   m_PrefabInstance: {fileID: 236603454}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &767532959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2034428344}
+    m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_Name
+      value: Diken (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_RootOrder
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 111.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
 --- !u!1 &788344675
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,6 +6174,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
   m_PrefabInstance: {fileID: 790459486}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &793283269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 158283714}
+    m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_Name
+      value: Diken (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_RootOrder
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 201.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
 --- !u!1 &794055766
 GameObject:
   m_ObjectHideFlags: 0
@@ -12286,6 +12578,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
   m_PrefabInstance: {fileID: 1594923229}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1622069399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2034428344}
+    m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_Name
+      value: Diken (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_RootOrder
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 191.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
 --- !u!1001 &1625425097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14663,9 +15024,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 158283714}
     m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_Name
       value: Diken (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_RootOrder
@@ -14710,6 +15079,10 @@ PrefabInstance:
     - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
@@ -14849,6 +15222,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
   m_PrefabInstance: {fileID: 2008957445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2034428344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1783961028139695452, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+  m_PrefabInstance: {fileID: 1783961028342104202}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2045479085
 GameObject:
@@ -15506,6 +15884,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 158283714}
     m_Modifications:
+    - target: {fileID: 3743934777217977566, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_Name
       value: Diken (99)
@@ -15513,6 +15895,10 @@ PrefabInstance:
     - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040516737261406458, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8040516737261406459, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
       propertyPath: m_RootOrder
@@ -15558,6 +15944,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8040516737842044155, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0ff240529b9c5e46ac6f269937a2ce4, type: 3}
 --- !u!1001 &1783961028342104202
@@ -15567,6 +15957,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1837275533}
     m_Modifications:
+    - target: {fileID: 1783961026855871549, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783961027527544532, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 1783961027527544554, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: _place
       value: 0
@@ -15623,45 +16021,2573 @@ PrefabInstance:
       propertyPath: _place
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1783961028139695455, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783961028355584060, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927913313098, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927913800014, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927914170059, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927916528918, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927929505353, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927941559121, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927950841765, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927954846825, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927959942321, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927973960116, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927977967039, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927978771606, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927983248933, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927989879269, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927996594982, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332927998237711, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928005735089, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928024481410, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928035786775, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928044844653, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928076247817, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928099178763, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928106859314, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928108122428, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928112941559, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928119615167, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928144325976, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928170395453, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928178090410, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928195196406, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928200419042, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928209220980, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928216184539, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928232039576, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928238226249, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928245489650, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928250915766, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928253761726, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928255682304, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928262934101, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928263303178, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928269778744, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928275633997, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928278846670, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928279279694, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928282062384, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928286853696, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928290758794, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928298055913, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928300210274, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928313828030, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928338635745, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928345314546, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928373059012, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928384302355, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928394878026, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928402372171, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928404196081, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928414497528, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928417857520, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928424945560, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928439116293, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928447364716, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928447542761, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928451651799, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928487362099, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928494782261, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928509391259, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928510990693, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928520093901, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928526999576, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928561124425, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928561292347, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928565357167, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928581916690, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928632322134, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928640099913, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928644215430, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928651527400, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928675441136, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928675499880, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928682167435, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928699671822, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928708182897, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928711367430, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928717023634, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928725963314, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928726366043, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928744211760, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928746301407, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928749966924, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928775025909, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928784678161, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928794048406, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928800782773, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928801367482, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928815040470, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928854579489, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928855577319, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928878129899, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928912495460, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928917667957, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928918708325, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928924859730, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928929511653, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928931659087, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928940099988, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928945327433, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928946218242, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928963700510, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928986799107, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928988777659, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332928994496523, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929026821877, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929037753218, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929059237610, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929100576078, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929101599067, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929103763327, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929110068456, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929152378061, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929154000085, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929154341579, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929155377690, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929166946634, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929176812199, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929177971010, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929196836700, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929197969340, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929201206793, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929206518865, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929213016571, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929220651635, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929225425486, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929239736148, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929249251119, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929289332749, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929314557707, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929322223780, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929336945408, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929346584307, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929366353546, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929370125533, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929373383010, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929379364674, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929383661038, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929414857610, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929415421820, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929420107745, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929420481114, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929426757661, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929445488900, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929449587075, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929451901780, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929479571901, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929480044568, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929488965833, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929492310101, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929494619912, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929502069262, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929541845001, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929549598875, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929565160857, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929570801998, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929587475558, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929604833662, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929619973507, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929648443229, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929648873155, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929655492648, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929680390772, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929694738777, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929697654912, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929700892120, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929703960223, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929704725824, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929738194744, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929743015186, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929747663675, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929751965834, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929783194867, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929790448262, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929808305595, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929817211440, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929823637245, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929834991642, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929837827296, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929841854320, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929849397414, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929855851893, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929867360969, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929885051457, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929890483952, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929908027222, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113332929916081285, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 4945340049115182104, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253658985115, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253674686535, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253676857548, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253679064111, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253679064111, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253682053295, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253687061093, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253689708053, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253695003883, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253695699051, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253696116584, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253703106333, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253708885616, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253709508655, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253711190737, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253713932198, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253713932198, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253718247205, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253720152219, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253722429805, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253723124006, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253724831030, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253725593008, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253735091681, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253739842753, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253739842753, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253741922667, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253741922667, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253743446390, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253743446390, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253761766615, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253763835943, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253763835943, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253765486751, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253767416772, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253774357306, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253795836303, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253796884721, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253797097199, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253798133310, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253803258089, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253804566296, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253828087427, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253829049702, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253829049702, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253829606781, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253851579758, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253855366810, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253856119699, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253863628759, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253868858220, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253874992317, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253878020814, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253892945662, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253895362764, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253895362764, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253897876817, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253906679495, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253913998803, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253914223451, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253914223451, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253919555946, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253920580991, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253926970952, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253932088361, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253939171378, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253948321447, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253957180207, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253957180207, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253964717184, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253967061652, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253975223043, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253976726570, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253985014208, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253990055391, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253990055391, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253995190738, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568253998891289, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254001208087, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254006013527, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254006855982, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254007296888, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254008232856, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254016979061, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254016979061, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254020252205, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254020252205, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254026156811, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254029800236, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254044210794, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254050392944, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254057678766, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254058175320, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254058431795, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254059549551, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254060061035, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254060791534, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254071315397, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254071494270, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254092211623, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254096305440, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254102980464, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8598568254111325241, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254111325241, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254124897792, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254128004506, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254129358003, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254131747543, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254133074321, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254148121748, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254151185484, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8598568254155534116, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8598568254155534116, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254156191616, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254160763338, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254160763338, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254164527974, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254167618420, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254176527980, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254177010350, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254177010350, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254183583046, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254188974329, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254190913796, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254192075458, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254192420031, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254192420031, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254218023981, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254231500787, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254238486594, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254238486594, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254241403325, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254246824336, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254247286175, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254252574643, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254255631722, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254263087184, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254264225856, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254264606105, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254265144380, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254269152369, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254270358337, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254274065645, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254302708430, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254312334890, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254313468716, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254313468716, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254330583479, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254331666000, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8598568254337232253, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254337232253, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254337272611, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254338421588, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254346949931, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254363393198, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254373207885, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254373280213, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254377200124, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254382025892, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254388329147, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254389094756, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254389094756, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254398262580, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254405202343, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254405747920, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254423487834, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254430791273, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254433868665, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254433970919, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254433970919, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254435522554, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254437594389, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254440985612, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254440985612, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254453426046, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254456955415, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254459639316, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254459639316, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254463641655, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254474713817, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254481201738, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254484744607, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254484744607, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254485263390, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254485480556, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254500279426, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254506928465, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254506928465, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254511039550, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254518571069, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254522327236, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254526223188, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254529070254, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254529230029, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254532828959, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254532828959, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254538654371, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254542837356, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254547470451, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254553213238, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8598568254556977948, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8598568254556977948, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254560231639, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254575482530, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254593857778, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254597965260, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8598568254598213193, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254598213193, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254606455328, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254621677501, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254630801365, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254632061661, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254642346708, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254645233262, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254650682479, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254661762661, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254661762661, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254661775592, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254669834560, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254672429502, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254675778260, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254677888749, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254687024912, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254692351510, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254701506721, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254726876018, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254731470709, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254737690059, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254741004135, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254748031303, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254749189368, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254752969325, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254753945263, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8598568254764068240, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8598568254764068240, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254773158401, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254775881430, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254776330651, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254777069746, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254778441805, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254782372645, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254783021953, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254783021953, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254792253589, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254801613681, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254807024038, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254811191585, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254826694712, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254832968319, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254836559812, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254837835630, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254837835630, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254838388074, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254838559471, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254838559471, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254839706543, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254840131417, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254840918322, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254871101194, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8598568254874679085, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254874679085, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254882647921, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254893806187, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254896967446, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254898361624, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254901746262, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254906300894, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254911372755, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254912779380, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254920140332, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254923037999, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254923511673, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254924414873, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254929929877, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254931228801, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254940995374, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254947890625, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254954278658, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254956312619, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254966233128, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254968566835, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254977360457, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254982490790, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568254999130448, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255006290687, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255009234125, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255015536474, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255017697662, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255020836203, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255024145094, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255024145094, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255027311058, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255036657517, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255041286034, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255044115414, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255055962300, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255063162575, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255076612455, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255077103996, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255079803522, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255086078619, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255086584175, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255099112174, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255099466992, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255100189247, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255101089000, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255102911257, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255111001486, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255130459294, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255133551654, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8598568255137066949, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8598568255137066949, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255144005846, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255156598587, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255171357152, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255174277431, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255176007020, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255176242471, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255179135409, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255190740330, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255192950976, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255196556663, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255200088937, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255202294556, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255202294556, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255206255124, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255211559146, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255212190826, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255212190826, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255217798055, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255219834010, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255222145828, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255227748048, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
     - target: {fileID: 8598568255229004401, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255229004401, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255229703214, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255246804634, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255248901294, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255253319268, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255258352710, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255262097454, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255264193741, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255264193741, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255278007456, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255287132019, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255299761599, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255299761599, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255301295425, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255302577877, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255310005481, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255310023268, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255318573841, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255318573841, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255319673367, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255325633260, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255336779477, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255336779477, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255342050260, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255342050260, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255347474140, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255360119407, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255360119407, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255361341550, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255371634209, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255375846643, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255380142664, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255380517325, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255382627260, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255403639459, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255409861846, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255434454690, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255434454690, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255438529133, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255438529133, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255441023151, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255441764556, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255445396254, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255453175095, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255456898845, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255464176754, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255473507664, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255479890051, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255485076540, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255488567125, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255489430725, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255494295615, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255504690904, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255510061589, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255514565686, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255518891422, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255519068269, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255519068269, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255519432735, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255531626059, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255534186772, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255534186772, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255536276475, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255537479693, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255547252454, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255547764600, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255548330600, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255549961087, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255558211094, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255573001638, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255573651665, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 8598568255583369525, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255583369525, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255591285083, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255608146764, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255608221140, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255615076527, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255623302842, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255624633701, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255629450749, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255629621413, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255635618172, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255635693346, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255640962901, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255646820945, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255650000310, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255665742122, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255668172495, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255694049835, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255699470125, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255701715056, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255702472512, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255706104044, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255713487256, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255713992765, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255716164689, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255717270593, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255717270593, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255741830211, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255748015090, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255751730098, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255751730098, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255759538539, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255762113980, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255767051665, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255767503262, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255778774277, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: GroundEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255779754174, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255779837635, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598568255788507180, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
+      propertyPath: m_TagString
+      value: FlyingEnemies
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 566eb579f535f1e4b8b3f073042dc65f, type: 3}
