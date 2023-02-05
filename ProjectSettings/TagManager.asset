@@ -8,6 +8,8 @@ TagManager:
   - LevelEndingCube
   - EnemyHit
   - EnemyMurder
+  - GroundEnemies
+  - FlyingEnemies
   layers:
   - Default
   - TransparentFX
