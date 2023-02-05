@@ -31,6 +31,7 @@ public class AgeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Invoke("StartMoving",0.1f);
         firstPoint = transform.position;
         ParalaxPlacesSet();
     }
