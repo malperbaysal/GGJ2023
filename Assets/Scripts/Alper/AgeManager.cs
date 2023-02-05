@@ -27,7 +27,7 @@ public class AgeManager : MonoBehaviour
     
     
     [SerializeField] private GameObject currentAge;
-
+    public NextSongScript NextSongScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -121,6 +121,7 @@ public class AgeManager : MonoBehaviour
         firstPoint = new Vector3(cubeTransform.position.x,firstPoint.y,firstPoint.z);
         ChangeCharacter();
         ParalaxPlacesSet();
+        NextSongScript.NextSong();
     }
 
     void ChangeCharacter()
