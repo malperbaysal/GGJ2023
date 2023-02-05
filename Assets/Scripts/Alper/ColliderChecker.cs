@@ -8,7 +8,7 @@ public class ColliderChecker : MonoBehaviour
 {
     public List<Transform> listOfCloseNotesDown;
     public List<Transform> listOfCloseNotesUp;
-
+    public ParticleSystem particle;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G) || Input.GetMouseButtonDown(0))
@@ -30,6 +30,8 @@ public class ColliderChecker : MonoBehaviour
         }
         if ((ClosestOneUp().position.x-transform.parent.position.x)<3f)
         {
+            ParticleSystem particleSystem= Instantiate(particle, ClosestOneUp().position, particle.transform.rotation);
+            particleSystem.Play();
             ClosestOneUp().GetComponentInParent<EnemyScript>().Die();
         }
     }void DownHitDecider()
@@ -40,6 +42,8 @@ public class ColliderChecker : MonoBehaviour
         }
         if ((ClosestOneDown().position.x-transform.parent.position.x)<3f)
         {
+            ParticleSystem particleSystem= Instantiate(particle, ClosestOneDown().position, particle.transform.rotation);
+            particleSystem.Play();
             ClosestOneDown().GetComponentInParent<EnemyScript>().Die();
         }
     }

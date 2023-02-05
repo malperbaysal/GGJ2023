@@ -10705,6 +10705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listOfCloseNotesDown: []
   listOfCloseNotesUp: []
+  particle: {fileID: 1827835870566615730, guid: 9ebfaabfd2439f245a18cfc290e5e16a, type: 3}
 --- !u!1 &6557700740019237565
 GameObject:
   m_ObjectHideFlags: 0

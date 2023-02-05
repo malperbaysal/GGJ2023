@@ -141,7 +141,7 @@ public class AgeManager : MonoBehaviour
     }
     public void PlayerDied()
     {
-        var EnemeyReviver = currentAge.GetComponentsInChildren<EnemyScript>();
+        var EnemeyReviver = GetComponentsInChildren<EnemyScript>();
         foreach (var enemies in EnemeyReviver)
         {
             enemies.Revive();
