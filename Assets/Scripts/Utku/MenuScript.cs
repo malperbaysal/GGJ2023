@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    [SerializeField] private string newGameLevel = "SampleScene";
+    [SerializeField] private string newGameLevel = "Utku asdfgh";
 
     public void NewGameButton()
     {

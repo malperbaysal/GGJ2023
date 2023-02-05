@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Alper/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Osman/Main Menu 1.unity
+    guid: cabcadd9fd33f6546bc03b2155f60cc0
+  - enabled: 1
+    path: Assets/Scenes/Utku/Utku asdfgh.unity
+    guid: 161d9e6bac00cae49b10549e1450816f
   m_configObjects: {}
