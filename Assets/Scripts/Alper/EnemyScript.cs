@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    private Vector3 firstPos;
+    private Quaternion firstRotation;
     [SerializeField] private GameObject _origin;
-    [SerializeField] private GameObject _active;
     [SerializeField] private Rigidbody _activeRB;
-    [SerializeField] private Rigidbody _originRB;
     private bool _isDead;
+    private BoxCollider _boxCollider;
+    
     void Start()
     {
+        firstPos = transform.GetChild(0).localPosition;
+        firstRotation = transform.GetChild(0).localRotation;
+        _boxCollider=transform.GetChild(0).GetComponent<BoxCollider>();
         
     }
 
@@ -31,11 +36,11 @@ public class EnemyScript : MonoBehaviour
     {
         if(_isDead)
             return;
+        _boxCollider.enabled = false;
         _activeRB.constraints = RigidbodyConstraints.None;
         _activeRB.isKinematic = false;
         _activeRB.AddForce(GetRandomForce(),ForceMode.Impulse);
         _activeRB.AddTorque(GetRandomForce(),ForceMode.Impulse);
-        Destroy(_active,2f);
         _isDead = true;
     }
 
@@ -43,11 +48,11 @@ public class EnemyScript : MonoBehaviour
     {
         if(!_isDead)
             return;
-        var newActive = Instantiate(_origin, _origin.transform.position, _origin.transform.rotation,
-            _origin.transform.parent);
-        _active = newActive;
-        _activeRB = _active.GetComponent<Rigidbody>();
-        _active.SetActive(true);
+        _boxCollider.enabled = true;
+        transform.GetChild(0).localPosition = firstPos;
+        transform.GetChild(0).localRotation = firstRotation;
+        _activeRB.constraints = RigidbodyConstraints.FreezeAll;
+        _activeRB.isKinematic = true;
         _isDead = false;
     }
 

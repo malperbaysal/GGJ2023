@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6199077069507014472}
   m_Layer: 6
   m_Name: Cube-Origin
-  m_TagString: Enemy
+  m_TagString: EnemyMurder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 3008521740024643643}
   m_Layer: 6
   m_Name: Enemy
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,10 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1410562615c78c4b9175f3b8023824c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _origin: {fileID: 3743934777217977566}
-  _active: {fileID: 8040516737842044155}
+  _origin: {fileID: 8040516737842044155}
   _activeRB: {fileID: 1711213566594176510}
-  _originRB: {fileID: 6199077069507014472}
 --- !u!1 &8040516737842044155
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,7 +174,7 @@ GameObject:
   - component: {fileID: 1711213566594176510}
   m_Layer: 6
   m_Name: Cube
-  m_TagString: Enemy
+  m_TagString: EnemyMurder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
