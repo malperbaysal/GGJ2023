@@ -215,6 +215,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 499368, guid: 360c73b9bf9a34d4c84bc0581d0499eb, type: 3}
   m_PrefabInstance: {fileID: 4387554498127317973}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &4387554498119835001 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9590444, guid: 360c73b9bf9a34d4c84bc0581d0499eb, type: 3}
+  m_PrefabInstance: {fileID: 4387554498127317973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1790557604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f30b6dd2d637654ab2829a3b949fd33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 4387554498636723035}
+  anim: {fileID: 4387554498119835001}
   animSelector: 1
   animWeight: 0
   animLayerIndex: 2
@@ -346,6 +351,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4421512215773762, guid: 30c23f6bcd4f35648bbfc61c9f671e51, type: 3}
   m_PrefabInstance: {fileID: 4387554498363556883}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &4445466677392959201 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95351788285682418, guid: 30c23f6bcd4f35648bbfc61c9f671e51, type: 3}
+  m_PrefabInstance: {fileID: 4387554498363556883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1277798922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f30b6dd2d637654ab2829a3b949fd33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 4387554498636723035}
+  anim: {fileID: 4445466677392959201}
   animSelector: 1
   animWeight: 0
   animLayerIndex: 2
@@ -645,6 +655,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400048, guid: f13349cc09b03d447a26b54d406aaa8e, type: 3}
   m_PrefabInstance: {fileID: 4788811104697345874}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &4788811104690016818 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: f13349cc09b03d447a26b54d406aaa8e, type: 3}
+  m_PrefabInstance: {fileID: 4788811104697345874}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &367131064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f30b6dd2d637654ab2829a3b949fd33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 4387554498636723035}
+  anim: {fileID: 4788811104690016818}
   animSelector: 1
   animWeight: 0
   animLayerIndex: 2
