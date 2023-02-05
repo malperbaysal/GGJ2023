@@ -61,7 +61,7 @@ public class AgeManager : MonoBehaviour
         if (_tween.IsActive())
             return;
 
-        _tween = transform.DOMoveX(-1000, 10).SetSpeedBased().SetEase(Ease.Linear);
+        _tween = transform.DOMoveX(-100000, 10).SetSpeedBased().SetEase(Ease.Linear);
         _groundTween = _ground.transform.DOMoveX(-1000, 6.5f).SetSpeedBased().SetEase(Ease.Linear);
         Parallax.instance.MoveX();
         MusicPlay();
