@@ -30,9 +30,9 @@ public class ColliderChecker : MonoBehaviour
         }
         if ((ClosestOneUp().position.x-transform.parent.position.x)<3f)
         {
-            ClosestOneUp().GetComponentInParent<EnemyScript>().Die();
-            ParticleSystem particleSystem= Instantiate(particle, particle.transform.position, particle.transform.rotation);
+            ParticleSystem particleSystem= Instantiate(particle, ClosestOneUp().position, particle.transform.rotation);
             particleSystem.Play();
+            ClosestOneUp().GetComponentInParent<EnemyScript>().Die();
         }
     }void DownHitDecider()
     {
@@ -42,9 +42,9 @@ public class ColliderChecker : MonoBehaviour
         }
         if ((ClosestOneDown().position.x-transform.parent.position.x)<3f)
         {
-            ClosestOneDown().GetComponentInParent<EnemyScript>().Die();
-            ParticleSystem particleSystem= Instantiate(particle, particle.transform.position, particle.transform.rotation);
+            ParticleSystem particleSystem= Instantiate(particle, ClosestOneDown().position, particle.transform.rotation);
             particleSystem.Play();
+            ClosestOneDown().GetComponentInParent<EnemyScript>().Die();
         }
     }
     
